@@ -6,7 +6,7 @@ import pymysql
 
 
 SECRET_KEY = 'SSDFDSFDFD'
-SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://user:password@localhost/db' # user,password,db换成你的
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@192.168.0.108/test' # user,password,db换成你的
 SQLALCHEMY_TRACK_MODIFICATIONS = True
 debug = True
 MAIL_SERVER = 'smtp.qq.com'
